@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body{
+    font-family: 'Caveat', cursive;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+:root{
+    --primary-color: #f0e65b;
+   
+}
+
+
+
+
+.navigation{
+    height: 5rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+textarea{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 1px solid black;
+    width: 90%;
+    height: 10vh;
+    display: block;
+    /* margin: 1rem; */
+    padding: 1rem;
+}
+#btn-translate{
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--primary-color);
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
+    border-radius: 1rem;
+}
+
+#msg{
+    font-size: larger;
+   
+    margin-bottom: 2%;
+}
+
+#output{
+    border: 1px solid black;
+    display: block;
+    height: 10vh;
+    width: 90%;
+   margin-bottom: 3rem;
+    padding: 1rem;
+
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: larger
+}
+
